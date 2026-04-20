@@ -37,9 +37,9 @@ class PifrenucTerminal(ctk.CTk):
         # --- GVP COMMAND ---
         elif raw_input.lower() == "gvp":
             if os.path.exists("engine.exe"):
-                output = " GVP SUCCESS.( or import) 'engine.exe' found in PIFRENUC files.\n"
+                output = " GVP SUCCESS. 'engine.exe' found in PIFRENUC files.\n"
             else:
-                output = " GVP( or import) FAIL. Engine missing. has not been found in PIFRENUC files.\n"
+                output = " GVP FAIL. Engine missing. has not been found in PIFRENUC files.\n"
 
         # --- ERROR HANDLING ---
         else:
